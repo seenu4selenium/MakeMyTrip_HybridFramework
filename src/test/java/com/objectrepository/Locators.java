@@ -18,6 +18,23 @@ public class Locators {
 	public final By flight_oneway_travellers_Apply_Button= By.xpath("//button[@data-cy='travellerApplyBtn']");
 	public final By flight_oneway_Search= By.xpath("//a[text()='Search']");
 	
+	//round trip locators
+	public final By flight_roundtrip_radiobutton = By.xpath("//li[@data-cy='roundTrip']");
+	public final By flight_roundtrip_from_station= By.id("placeholder");
+	public final By flight_roundtrip_bengaluru=By.id("react-autowhatever-1-section-0-item-0");
+	public final By flight_roundtrip_returstation=By.id("placeholder");
+	public final By flight_roundtrip_denverplace=By.id("react-autowhatever-1-section-0-item-0");
+	
+	
+	public final By flight_roundtrip_returDate= By.xpath("//*[text()='11']");
+	
+	
+	
+	//Multi city locators
+	public final By flight_multicity_radiobutton = By.xpath("//li[@data-cy='mulitiCityTrip']");
+	
+	
+	
 	
 
 }
